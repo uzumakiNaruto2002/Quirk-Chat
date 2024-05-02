@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.button-container {
+  display: flex;
+}
+
+.status-button {
+  margin-right: 0.5rem; /* Adjust margin as needed */
+}
+
+.status-button {
+  /* border: 2px solid #333; Add border */
+  background-color: #007bff; /* Set background color to blue */
+  color: #fff; /* Set text color */
+  padding: 0.5rem 1rem; /* Add padding */
+  cursor: pointer; /* Add cursor style */
+  transition: background-color 0.3s ease; /* Add transition effect */
+  border-radius: 0.5rem;
+}
+
+
+/* Add custom styles to the power-off button */
+.power-off-button {
+  border: 2px solid #333; /* Add border */
+  background-color: #ff0000; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 0.5rem 1rem; /* Add padding */
+  cursor: pointer; /* Add cursor style */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+
+
