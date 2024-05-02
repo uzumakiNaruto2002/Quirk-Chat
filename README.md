@@ -3,6 +3,7 @@ Welcome to Quirk Chat⚡!
 <p align="center"><img src="screenshots/cover-pic.png" alt="app poster" height="400" width="700"></p>
 
 # Demo💻
+https://drive.google.com/file/d/1_VGbCYfu5PW4-iwDiO1jGIu5tNdAzY2z/view?usp=sharing
 
 Note that it can time to load the dashboard once you click Log in, please be patient :)
 
@@ -20,11 +21,11 @@ Note that it can time to load the dashboard once you click Log in, please be pat
 # Installation⬇️
 1. Clone the repository
 ```bash
-git clone https://github.com/Atigit15/quirk-chat.git
+git clone https://github.com/uzumakiNaruto2002/Quirk-Chat.git
 ```
 2. Install dependencies
 ```bash
-cd quirk-chat
+cd public
 npm install
 ```
 3. Set up the environment variables:
@@ -50,14 +51,4 @@ npm start
 - Socket.io: A library that enables real-time, bidirectional communication between web clients and servers. Socket.io forms the core of Quirk Chat's real-time chat functionality.
 
 - MongoDB: A NoSQL database that offers scalability and flexibility for storing and retrieving user information and chat messages. MongoDB integrates seamlessly with Quirk Chat's Node.js backend.
-
-- MultiAvatar: An external API. Multiavatar is a multicultural avatar generator, which is free to use and open source.
-
-# Deployment🖥️
-The site's server code is uploaded on render.com and frontend (public or client) code is uploaded through Netlify.
-
-# License📄
-Quirk Chat is open source and available under the MIT License.
-
-A special thanks to Kishan Sheth. Thank you for choosing Quirk Chat! We hope you enjoy using our real-time chat application and have meaningful conversations with others.
 
